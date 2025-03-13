@@ -1,9 +1,13 @@
 from flask import Flask, request, jsonify
+from flask_cors import CORS  # Import CORS
 from gradio_client import Client, handle_file
 import os
 
 # Initialize Flask app
 app = Flask(__name__)
+
+# Enable CORS on all routes or specify for particular routes
+CORS(app)  # This will allow all domains. For security, you can specify allowed origins.
 
 # Initialize Gradio Client
 client = Client("cyrustristan/wasteed")
