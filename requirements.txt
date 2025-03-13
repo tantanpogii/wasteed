@@ -4,4 +4,4 @@ gunicorn==20.1.0
 requests==2.26.0  # For making HTTP requests
 websockets==10.4
 Werkzeug==2.2.3
-flask-cors==3.1.1  # Add this line
+flask-cors==5.0.0  # Add this line
