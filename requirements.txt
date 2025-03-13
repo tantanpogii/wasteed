@@ -3,3 +3,4 @@ gradio-client==1.7.2  # Update with the correct Gradio version you're using
 gunicorn==20.1.0
 requests==2.26.0  # For making HTTP requests
 websockets==10.4
+Werkzeug==2.2.3
