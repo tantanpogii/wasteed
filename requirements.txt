@@ -1,5 +1,4 @@
-Flask==2.1.1      # Or your version of Flask
-Werkzeug==2.0.3    # Compatible version of Werkzeug
-gradio-client==1.0.0
+Flask==2.1.1
+gradio-client==1.0.0  # Update with the correct Gradio version you're using
 gunicorn==20.1.0
-requests==2.26.0
+requests==2.26.0  # For making HTTP requests
